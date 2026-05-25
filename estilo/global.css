@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+/*
+Paleta Dark Tech
+Uso	Cor
+Fundo	#0f172a
+Cards	#1e293b
+Texto	#f8fafc
+Azul destaque	#3b82f6
+Bordas	#334155
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(15, 23, 42, 0.985);
+    color: rgb(248, 250, 252);
+
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    background-color: rgb(30, 41, 59);
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    font-size: 2.8em;
+
+    padding: 20px;
+    margin: 20px 50px;
+    margin-bottom: 3px;
+
+    border-radius: 18px;
+    box-shadow: 2px 2px 10px #2b3848ce;
+}
+
+h3{
+    background-color: rgba(49, 68, 99, 0.503);
+    color: rgb(248, 250, 252);
+    text-align: center;
+
+    font-size: 1.9em;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 8px;
+    margin: 10px 320px;
+    margin-top: 3px;
+
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px #2b3848;
+}
+
+.P_1{
+    text-align: center;
+
+    font-size: 15px;
+
+    padding: 5px;
+
+    margin: 0px 600px;
+    margin-top: 8px;
+
+    border-radius: 12px;
+    box-shadow: 1px 0px 3px #334155;
+}
+
+.A_P_1{
+    color: rgb(59, 130, 246);
+    text-decoration: none;
+}
+
+.A_P_1:hover{
+    color: rgb(59, 130, 246);
+    text-decoration: underline;
+
+    transition: 0.38s;
+}
+
+a{
+    color: rgb(59, 130, 246);
+
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(30, 41, 59);
+    color:	#f8fafc;
+
+    text-align: center;
+
+    margin: 30px 360px;
+    padding: 8px;
+
+    border-radius: 16px 0px 16px 0px;
+    box-shadow: 5px 4px 10px #33415556;
+}
+
+ul {
+  list-style-type: none; /* remover balas */
+  padding: 0;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+
+    background-color: #334155;
+
+    margin-bottom: 20px;
+    margin-top: 7px;
+
+}
+
+/*
+FAZER UM ANBURGUE MENU PARA O SITE, COM AS MESMAS PROPRIEDADES DE COR E FONTE DAS A_MENU, MAS COM UM DESIGN DIFERENTE, PARA FICAR MAIS MODERNO E INTERATIVO. O MENU DEVE SER RESPONSIVO, OU SEJA, SE ADAPTAR A DIFERENTES TAMANHOS DE TELA, COMO CELULARES E TABLETS. O MENU DEVE TER UMA ANIMAÇÃO SUAVE AO ABRIR E FECHAR, E DEVE PERMITIR AO USUÁRIO NAVEGAR ENTRE AS PÁGINAS DO SITE DE FORMA FÁCIL E INTUITIVA."obrigatorio ter JS para o funcionamento do menu, mas o código deve ser simples e fácil de entender. O menu deve ser acessível, ou seja, deve ser possível navegar por ele usando apenas o teclado, e deve ter uma boa estrutura semântica para garantir que seja compreendido por leitores de tela e outros dispositivos de assistência."
+*/
+
+.A_menu{
+    background-color: rgba(67, 92, 128, 0.252);
+    color: rgb(248, 250, 252);
+
+    display: block;
+
+    padding: 10px 20px;
+    margin: 8px 10px;
+
+    border-radius: 12px;
+
+    font-weight: bolder;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.A_menu:hover{
+    background-color: darkblue;
+    color: rgb(248, 250, 252);
+
+    border-radius: 12px;
+    box-shadow: 4px 0px 13px	#334155;
+
+    transition: 0.38s;
+}
+
+.A_menu:active{
+    background-color: rgb(59, 130, 246);
+    color: rgb(248, 250, 252);
+
+    border-radius: 12px;
+    box-shadow: 4px 0px 13px	#334155;
+}
+
+.A_menu:focus{
+    background-color:  darkblue;
+    color: rgb(248, 250, 252);
+
+    border-radius: 12px;
+    box-shadow: 4px 0px 13px	#334155;
+}
+
+main{
+    background-color: rgb(44, 60, 86);
+    color: rgb(248, 250, 252);
+
+    font: 1em Arial,sans-serif;
+
+    margin: 30px 80px;
+    padding: 2px;
+
+    border-radius: 16px;
+    box-shadow: 5px 4px 10px #33415556;
+}
+
+img{
+    background:cover; 
+
+    display: block;
+
+    margin: 20px auto;
+    margin-bottom: 4px;
+
+    width: 80%;
+    height: auto;
+
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px #334155ce;
+}
+
+figcaption{
+    text-align: left;
+
+    font-size: 0.9em;
+    font-style: italic;
+
+    color: rgb(248, 250, 252);
+
+    margin-top: 4px;
+    margin-left: 140px;
+}
+
+.A_img_pag1 > figcaption{
+    color:rgb(59, 130, 246);
+    text-align: left;
+    font-size: 1em;
+}
+
+.A_img_pag1 :hover{
+    color:  rgb(38, 38, 255);
+
+    
+    font-size: 1em;
+
+    text-decoration: underline;
+
+    transition: 0.20s;
+}   
+
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-weight: bolder;
+
+    text-align: justify;
+
+    color: #ffffff;
+
+    padding: 10px;
+
+    margin: 8px 122px;
+   
+
+}
+
+footer{
+    background-color: rgb(30, 41, 59);
+    color: rgb(248, 250, 252);
+
+    text-align: center;
+
+    margin: 30px 360px;
+    padding: 4px;
+
+    border-radius: 16px 0px 16px 0px;
+    box-shadow: 5px 4px 10px #33415556;
+}
+
+footer p{
+
+
+    font-size: 0.9em;
+    font-style: italic;
+
+    color: rgb(248, 250, 252);
+
+    margin-top: 4px;
+    margin-left: 74px;
+}
+
+footer p a{
+    color: rgb(59, 130, 246);
+    text-decoration: none;
+}
+
+footer p a:hover{
+    color:  rgb(38, 38, 255);
+
+    
+    font-size: 1.05em;
+
+    text-decoration: underline;
+
+    transition: 0.28s;
+}

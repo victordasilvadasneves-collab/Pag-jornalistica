@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@media (max-width: 900px) {
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    header{
+        width: 100%;
+       padding: 0px;  
+    }
+
+    menu{
+        display: none;
+    }
+
+}
