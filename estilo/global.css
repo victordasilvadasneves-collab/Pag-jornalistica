@@ -201,13 +201,13 @@ figcaption{
     margin-left: 140px;
 }
 
-.A_img_pag1 > figcaption{
+.A_img_cap > figcaption{
     color:rgb(59, 130, 246);
     text-align: left;
     font-size: 1em;
 }
 
-.A_img_pag1 :hover{
+.A_img_cap :hover{
     color:  rgb(38, 38, 255);
 
     
